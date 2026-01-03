@@ -1,8 +1,6 @@
 # titanic-survival
 🚢  **Titanic Survival Prediction API**
 
-An end-to-end machine learning classification project that predicts whether a passenger survived the Titanic disaster.
-The project covers the full ML lifecycle — data preprocessing, model training, evaluation, and deployment as a FastAPI service, with optional Docker containerization.
 
 📌 Project Overview
 
