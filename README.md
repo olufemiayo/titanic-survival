@@ -54,7 +54,7 @@ Interpretation:
 - The model performs well at identifying non-survivors
 - Reasonable recall on survivors given class imbalance
 - Suitable baseline model for further tuning
-- 
+  
 <img width="1796" height="820" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/205efab6-42d0-401d-9336-51e310e1248a" />
 
 I improved model performance by using Class weighted Logistics Regression
@@ -80,18 +80,31 @@ Use the interactive UI to test predictions easily.
 Example Request (JSON)
 
 {
+
   "Pclass": 3,
+  
   "Sex": "male",
+  
   "Age": 40,
+  
   "SibSp": 2,
+  
   "Parch": 2,
+  
   "Fare": 7.25,
+  
   "Embarked": "S"
+  
 }
+
 Example Response
+
 {
+
   "survived": 0,
+  
   "survival_probability": 0.203
+  
 }
 
 🧑‍💻 **Author**
