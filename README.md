@@ -1,42 +1,22 @@
 # titanic-survival
-🚢  **Titanic Survival Prediction API**
-
+🚢  ## **Titanic Survival Prediction API**
 
 📌 **Project Overview**
 This is an end-to-end machine learning classification project where I trained a model to predict Titanic survival and deployed it as a FastAPI REST API
 
-🧠 Machine Learning Details
+**Exploratory Data Analysis (EDA)**
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/1f25f247-9607-44ce-bd0f-47157719769d" />
 
+
+🧠 **Machine Learning Details**
 Problem Type: Binary Classification
-
 Target Variable: Survived (0 = Did not survive, 1 = Survived)
-
 Model: Logistic Regression
+Pipeline Includes:Missing value imputation, Log transformation for skewed numerical features, Outlier capping (IQR method),One-hot encoding for nominal categorical variables, Scaling with StandardScaler
 
-Pipeline Includes:
 
-Missing value imputation
 
-Log transformation for skewed numerical features
-
-Outlier capping (IQR method)
-
-One-hot encoding for nominal categorical variables
-
-Scaling with StandardScaler
-
-📊 Model Performance
-Accuracy: 0.78
-
-Confusion Matrix:
-[[95 15]
- [24 45]]
-
-Classification Report:
-              precision    recall  f1-score
-Not Survived      0.80      0.86      0.83
-Survived          0.75      0.65      0.70
-
+📊 **Model Performance**
 
 Interpretation:
 
