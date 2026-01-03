@@ -2,25 +2,8 @@
 🚢  **Titanic Survival Prediction API**
 
 
-📌 Project Overview
-
-This project demonstrates how to:
-
-Clean and preprocess real-world tabular data
-
-Handle missing values, skewness, and outliers
-
-Encode categorical and ordinal variables correctly
-
-Train and evaluate a classification model
-
-Package the full preprocessing + model pipeline
-
-Serve predictions through a REST API using FastAPI
-
-Test the API using Swagger UI, PowerShell, and curl
-
-Containerize the application with Docker
+📌 **Project Overview**
+This is an end-to-end machine learning classification project where I trained a model to predict Titanic survival and deployed it as a FastAPI REST API
 
 🧠 Machine Learning Details
 
